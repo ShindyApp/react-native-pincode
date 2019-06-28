@@ -2,14 +2,14 @@ import delay from './delay'
 import PinCode, { PinStatus } from './PinCode'
 import { PinResultStatus } from './utils'
 
-import AsyncStorage from '@react-native-community/async-storage'
 import * as React from 'react'
 import {
   StyleProp,
   StyleSheet,
   TextStyle,
   View,
-  ViewStyle
+  ViewStyle,
+  AsyncStorage
 } from 'react-native'
 import * as Keychain from 'react-native-keychain'
 import TouchID from 'react-native-touch-id'
